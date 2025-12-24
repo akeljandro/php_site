@@ -18,6 +18,7 @@ function renderNavigation() {
         unset($nav_items['login.php']);
         $nav_items['/admin/dibujos_guardados.php'] = 'Dibujos guardados';
         $nav_items['/admin/mensajes.php'] = 'Mensajes';
+        $nav_items['/admin/upload.php'] = 'Subir dibujo';
     }
     
     echo '<nav>';

@@ -92,7 +92,8 @@ require_once 'layout.php';
                     <h1>Sobre mí</h1>
                     <p>
                         <img src="/img/god lorde.gif" alt="" id="wowo">
-                        Ellop, este es el idiota profesional, artista por hobby, y pervertido de medio tiempo.
+                        Ellop, este es el idiota profesional, artista por hobby, y pervertido de medio tiempo. <br>
+                        Y esto es un trabajo en progreso T_T
                     </p>
                     <?php
                         $labels_dir = "img/labels";

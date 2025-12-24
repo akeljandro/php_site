@@ -48,17 +48,54 @@
 
 /* Gallery Page */
 .gallery-container {
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
     padding: 2em;
     text-align: center;
+    overflow-y: scroll;
 }
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5em;
     margin-top: 2em;
+    width: 100%;
+}
+
+.filter {
+    position: relative;
+    margin: 10pt;
+    padding: 0;
+    border-radius: 1em 5em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.filter img {
+    filter: none;
+    transition: filter 0.3s ease;
+}
+
+.filter:hover img {
+    filter: brightness(1.1);
+}
+
+.year-section {
+    margin-bottom: 3em;
+    background: var(--opacity);
+    border-radius: 8px;
+    padding: 1.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.year-title {
+    font-size: 1.8em;
+    color: var(--extra);
+    margin-bottom: 1em;
+    border-bottom: 2px solid var(--extra);
+    padding-bottom: 0.5em;
+    text-align: center;
 }
 
 .gallery-item {
@@ -70,6 +107,87 @@
 
 .gallery-item:hover {
     transform: translateY(-5px);
+}
+
+/* Drawing Gallery Styles */
+.drawing-card {
+    background: var(--opacity);
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.drawing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.drawing-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+
+.drawing-info {
+    padding: 1em 0;
+    text-align: left;
+}
+
+.drawing-title {
+    font-weight: bold;
+    color: var(--txt);
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+}
+
+.drawing-date {
+    color: var(--txt);
+    opacity: 0.8;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
+.drawing-actions {
+    text-align: center;
+}
+
+.download-btn {
+    background: var(--extra);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #ff4d7f;
+}
+
+.no-drawings {
+    text-align: center;
+    padding: 3em;
+    color: var(--txt);
+}
+
+.no-drawings h3 {
+    margin-bottom: 1em;
+    color: var(--txt);
+}
+
+.error-message {
+    background: #ff6b6b;
+    color: white;
+    padding: 1em;
+    border-radius: 4px;
+    margin: 1em 0;
 }
 
 /* Contact Page */

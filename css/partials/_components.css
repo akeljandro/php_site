@@ -27,7 +27,8 @@
 }
 
 .form-group input,
-.form-group textarea {
+.form-group textarea,
+.form-group select {
     width: 100%;
     padding: 0.5em;
     border: 1px solid var(--extra);
@@ -37,7 +38,8 @@
 }
 
 .form-group input:focus,
-.form-group textarea:focus {
+.form-group textarea:focus,
+.form-group select:focus {
     outline: none;
     border-color: var(--extra);
     background-color: rgba(255, 255, 255, 0.2);

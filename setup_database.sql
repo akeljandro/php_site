@@ -162,8 +162,30 @@ create table if not exists portfolio(
     id INT AUTO_INCREMENT PRIMARY KEY,
     year int not null,
     number int not null,
-    intellectual_property TEXT NOT NULL
+    intellectual_property TEXT NOT NULL,
+    pictures_url VARCHAR(255) NOT NULL
 );
 
-insert into portfolio(year, number, intellectual_property) values
-(2025, 1, 'Portfolio 2025');
+-- Insert portfolio items from existing galeria images
+INSERT INTO portfolio (year, number, intellectual_property, pictures_url) VALUES
+(2023, 1, 'Original Character', '/img/portfolio/2023(1).webp'),
+(2023, 2, 'Eddsworld', '/img/portfolio/2023(2).webp'),
+(2023, 3, 'Original Character', '/img/portfolio/2023(3).webp'),
+(2023, 4, 'Eddsworld', '/img/portfolio/2023(4).webp'),
+(2023, 5, 'Original Character', '/img/portfolio/2023(5).webp'),
+(2023, 6, 'Original Character', '/img/portfolio/2023(6).webp'),
+(2023, 7, 'Eddsworld & Dead Space', '/img/portfolio/2023(7).webp'),
+(2024, 1, 'Original Character', '/img/portfolio/2024(1).webp'),
+(2024, 2, 'Xenia', '/img/portfolio/2024(2).webp'),
+(2024, 3, 'Eddsworld', '/img/portfolio/2024(3).webp'),
+(2024, 4, 'Original Character', '/img/portfolio/2024(4).webp'),
+(2024, 5, 'Anastasia "Nastya" Kreslina, of band IC3PEAK', '/img/portfolio/2024(5).webp'),
+(2024, 6, 'Original Character', '/img/portfolio/2024(6).webp'),
+(2024, 7, 'Original Character', '/img/portfolio/2024(7).webp'),
+(2024, 8, 'Original Character', '/img/portfolio/2024(8).webp'),
+(2025, 1, 'Original Character', '/img/portfolio/2025(1).webp'),
+(2025, 2, 'Original Character', '/img/portfolio/2025(2).webp'),
+(2025, 3, 'Original Character', '/img/portfolio/2025(3).webp'),
+(2025, 4, 'Original Character', '/img/portfolio/2025(4).webp'),
+(2025, 5, 'The Binding of Isaac', '/img/portfolio/2025(5).webp'),
+(2025, 6, 'Original Character', '/img/portfolio/2025(6).webp');

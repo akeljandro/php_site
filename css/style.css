@@ -92,9 +92,6 @@ main{
 /* galeria */
 
 #galeria{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     width: 90%;
     max-width: 65em;
     height: 35em;
@@ -124,9 +121,14 @@ main{
     position: relative;
     margin: 10pt;
     padding: 0;
+    display: inline-block;
+    width: 15em;
+    height: 15em;
     border-radius: 1em 5em;
     box-sizing: border-box;
     overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
 
     img{
         filter: brightness(1.2) grayscale(100%);

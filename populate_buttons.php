@@ -4,7 +4,7 @@
 
 require_once 'admin/database.php';
 
-$buttons_dir = '/home/akel/Documentos/php/img/buttons/';
+$buttons_dir = '/img/buttons/';
 $buttons_data = [
     'boypussy' => ['file' => 'boypussy.gif', 'url' => 'https://boypussy.neocities.org/'],
     'doqmeat' => ['file' => 'doqmeat.png', 'url' => 'https://doqmeat.com/'],

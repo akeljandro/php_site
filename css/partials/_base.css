@@ -1,7 +1,16 @@
 /* Base Styles */
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    padding: 0;
+    padding: 0.5em 0;
+    color: var(--txt);
+    font-family: 'HachiMaruPop', sans-serif;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid var(--extra);
+    padding-bottom: 0.5em;
 }
 
 p {

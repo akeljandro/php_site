@@ -1,5 +1,6 @@
 <?php
 require_once 'layout.php';
+require_once 'admin/database.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,13 +19,39 @@ require_once 'layout.php';
     <div id="galeria">
         
         <?php
-            $dir_img = "img/portfolio/";
-            $img = scandir($dir_img);
-            foreach ($img as $value) {
-                if (preg_match("/\.(jpg|jpeg|png|gif|bmp|webp|svg)$/i", $value)) {
-                    $name = pathinfo($value, PATHINFO_FILENAME);
-                    echo "<div class='filter'><img src='img/portfolio/$value' alt='$name' class='gallery'></div>";
+            try {
+                $pdo = getDatabaseConnection();
+                
+                // Get portfolio items ordered by year and number
+                $stmt = $pdo->query("SELECT year, number, intellectual_property, pictures_url FROM portfolio ORDER BY year DESC, number DESC");
+                $portfolio_items = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                
+                if (count($portfolio_items) > 0) {
+                    // Group items by year
+                    $items_by_year = [];
+                    foreach ($portfolio_items as $item) {
+                        $items_by_year[$item['year']][] = $item;
+                    }
+                    
+                    // Display items grouped by year
+                    foreach ($items_by_year as $year => $items) {
+                        echo "<div class='year-section'>";
+                        echo "<h2 class='year-title'>" . htmlspecialchars($year) . "</h2>";
+                        echo "<div class='gallery-grid'>";
+                        
+                        foreach ($items as $item) {
+                            echo "<div class='filter'><img src='" . htmlspecialchars($item['pictures_url']) . "' alt='" . htmlspecialchars($item['intellectual_property']) . "' class='gallery'></div>";
+                        }
+                        
+                        echo "</div>";
+                        echo "</div>";
+                    }
+                } else {
+                    echo "<div class='no-items'><p>No hay elementos en la galería aún.</p></div>";
                 }
+                
+            } catch(PDOException $e) {
+                echo "<div class='error'><p>Error al cargar la galería: " . htmlspecialchars($e->getMessage()) . "</p></div>";
             }
         ?>
         <div id="lightbox">
