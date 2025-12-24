@@ -1,20 +1,23 @@
 <?php
-include_once 'auth.php';
+include_once 'admin/auth.php';
 
 function renderNavigation() {
-    $current_page = basename($_SERVER['PHP_SELF']);
+    $current_page = '/' . ltrim($_SERVER['PHP_SELF'], '/');
+    // Debug: uncomment to see the actual value
+    // error_log("PHP_SELF: " . $_SERVER['PHP_SELF']);
+    // error_log("Current page: " . $current_page);
     
     $nav_items = [
-        'index.php' => 'Inicio',
-        'about.php' => 'Sobre Mi',
-        'galeria.php' => 'Galería', 
-        'contact.php' => 'Contacto'
+        '/index.php' => 'Inicio',
+        '/about.php' => 'Sobre Mi',
+        '/galeria.php' => 'Galería', 
+        '/contact.php' => 'Contacto'
     ];
     
     if (isLoggedIn()) {
         unset($nav_items['login.php']);
-        $nav_items['dibujos_guardados.php'] = 'Dibujos guardados';
-        $nav_items['mensajes.php'] = 'Mensajes';
+        $nav_items['/admin/dibujos_guardados.php'] = 'Dibujos guardados';
+        $nav_items['/admin/mensajes.php'] = 'Mensajes';
     }
     
     echo '<nav>';

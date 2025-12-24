@@ -2,7 +2,7 @@
 // Require authentication to access this page
 require_once 'auth.php';
 requireAuth();
-require_once 'layout.php';
+require_once '../layout.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +10,7 @@ require_once 'layout.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería - Dibujos guardados</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <?php renderNavigation(); ?>
@@ -27,7 +27,7 @@ require_once 'layout.php';
             $pdo = getDatabaseConnection();
             
             // Get all drawings ordered by creation date (newest first)
-            $stmt = $pdo->query("SELECT id, title, created_at FROM drawings ORDER BY created_at DESC");
+            $stmt = $pdo->query("SELECT id, title, created_at FROM picasso ORDER BY created_at DESC");
             $drawings = $stmt->fetchAll(PDO::FETCH_ASSOC);
             
             if (count($drawings) > 0) {

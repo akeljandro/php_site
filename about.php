@@ -19,7 +19,7 @@ require_once 'layout.php';
                 <div class="links">
                     <?php
                     try {
-                        require_once 'database.php';
+                        require_once 'admin/database.php';
                         $pdo = getDatabaseConnection();
                         $query = "SELECT * FROM social_links WHERE is_nsfw = 0 ORDER BY platform ASC";
                         $stmt = $pdo->query($query);

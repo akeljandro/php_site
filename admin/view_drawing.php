@@ -14,7 +14,7 @@ try {
     }
     
     // Get drawing data from database
-    $stmt = $pdo->prepare("SELECT image_data, title FROM drawings WHERE id = ?");
+    $stmt = $pdo->prepare("SELECT image_data, title FROM picasso WHERE id = ?");
     $stmt->execute([$id]);
     $drawing = $stmt->fetch(PDO::FETCH_ASSOC);
     

@@ -1,7 +1,7 @@
 <?php
 require_once 'auth.php';
 requireAuth();
-require_once 'layout.php';
+require_once '../layout.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +9,7 @@ require_once 'layout.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mensajes</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <?php renderNavigation(); ?>

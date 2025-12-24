@@ -18,7 +18,7 @@ require_once 'layout.php';
 <p>Esta página es para probar PHP y JS.</p>
 <div class="marquee-container">
     <?php 
-    require_once 'database.php';
+    require_once 'admin/database.php';
     try {
         $pdo = getDatabaseConnection();
         $stmt = $pdo->query("SELECT name, link, image_data FROM buttons");

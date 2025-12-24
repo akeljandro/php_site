@@ -15,7 +15,7 @@ require_once 'layout.php';
         <h1>Acceso Restringido</h1>
         <div class="login-container">
             <?php
-            require_once 'auth.php';
+            require_once 'admin/auth.php';
             
             // Handle login submission
             if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username']) && isset($_POST['password'])) {

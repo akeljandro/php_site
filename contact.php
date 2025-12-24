@@ -54,7 +54,7 @@ require_once 'layout.php';
             session_start();
             
             // Include database configuration
-            require_once 'database.php';
+            require_once 'admin/database.php';
             
             // Handle form submission
             if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['msj'])) {
@@ -73,7 +73,7 @@ require_once 'layout.php';
                         
                         if ($result) {
                             $_SESSION['flash_message'] = ['type' => 'success', 'text' => '¡Mensaje enviado con éxito!'];
-                            require_once 'telegram.php';
+                            require_once 'admin/telegram.php';
                             $telegramMessage = "Nuevo mensaje: " . $message;
                             sendTelegramMessage($telegramMessage);
                         } else {

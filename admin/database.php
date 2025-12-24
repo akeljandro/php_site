@@ -3,7 +3,7 @@
 $host = 'localhost';
 $dbname = 'akel_db';
 $username = 'akel_admin';
-$password = 'AmericanRiver';
+$password = 'zli52_D8^LZtfvyv';
 
 // Create PDO connection
 function getDatabaseConnection() {

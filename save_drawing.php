@@ -18,7 +18,7 @@ if ($rawPost) {
 }
 
 // Include database configuration
-require_once 'database.php';
+require_once 'admin/database.php';
 
 try {
     $pdo = getDatabaseConnection();
@@ -75,7 +75,7 @@ if ($imageData === false) {
 }
 
 // Insert into database
-$stmt = $pdo->prepare("INSERT INTO drawings (title, image_data, created_at) VALUES (?, ?, NOW())");
+$stmt = $pdo->prepare("INSERT INTO picasso (title, image_data, created_at) VALUES (?, ?, NOW())");
 
 try {
     $result = $stmt->execute([$title, $imageData]);
@@ -87,7 +87,7 @@ try {
     
     if ($result) {
         echo json_encode(['success' => true, 'message' => '¡Dibujo guardado con éxito!']);
-        require_once 'telegram.php';
+        require_once 'admin/telegram.php';
         $telegramMessage = "Nuevo dibujo guardado: " . $title;
         sendTelegramMessage($telegramMessage);
     } else {
