@@ -1,0 +1,15 @@
+/* CSS Variables */
+:root {
+    --bg: #08070e;
+    --txt: #ffdbf8;
+    --extra: #FF68A2;
+    --opacity: rgba(0, 0, 0, 0.5);
+    --outline1: -1pt -1pt var(--extra), 1pt 1pt var(--extra),
+               -1pt 1pt var(--extra), 1pt -1pt var(--extra),
+               -1pt 0pt var(--extra), 1pt 0pt var(--extra),
+               0pt 1pt var(--extra), 0pt -1pt var(--extra);
+    --outline2: -1pt -1pt var(--txt), 1pt 1pt var(--txt),
+               -1pt 1pt var(--txt), 1pt -1pt var(--txt),
+               -1pt 0pt var(--txt), 1pt 0pt var(--txt),
+               0pt 1pt var(--txt), 0pt -1pt var(--txt);
+}

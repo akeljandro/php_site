@@ -1,0 +1,15 @@
+/* Font Faces */
+@font-face {
+    font-family: 'Webfont';
+    src: url('/font/webfont.ttf');
+}
+
+@font-face {
+    font-family: 'ShareTechMono';
+    src: url('/font/ShareTechMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'HachiMaruPop';
+    src: url('/font/HachiMaruPop-Regular.ttf');
+}

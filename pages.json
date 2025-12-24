@@ -1,0 +1,695 @@
+{
+  "Pages": [
+    {
+      "Name": "3DS Hacks Guide",
+      "URL": "https://3ds.hacks.guide/",
+      "Description": "A guide to 3DS homebrewing.",
+      "Tags": [
+        "Tools",
+        "Video Games"
+      ]
+    },
+    {
+      "Name": "AlternativeTo",
+      "URL": "https://alternativeto.net/",
+      "Description": "A website that compares software.",
+      "Tags": [
+        "Tools",
+        "Software",
+        "Directory"
+      ]
+    },
+    {
+      "Name": "Animal Photo Art References Search",
+      "URL": "https://x6ud.github.io/#/",
+      "Description": "A website that allows you to search for animal photos.",
+      "Tags": [
+        "Tools",
+        "Art",
+        "Archive"
+      ]
+    },
+    {
+      "Name": "AnimeEffects",
+      "URL": "https://animeeffectsdevs.github.io/",
+      "Description": "An open source 2D animation tool which doesn't require a carefully thought-out plan, it simplifies animation by providing various functions based on the deformation of polygon meshes.",
+      "Tags": [
+        "Animation",
+        "Software"
+      ]
+    },
+    {
+      "Name": "Animongers Flash Archive",
+      "URL": "http://animonger.com/flash-tools-archive",
+      "Description": "Free Flash/Animate plugins. ",
+      "Tags": [
+        "Animation",
+        "Plugins"
+      ]
+    },
+    {
+      "Name": "Anytype",
+      "URL": "https://anytype.io/",
+      "Description": "Anytype is a note-taking app that allows you to create and manage notes in a way that is both flexible and powerful powerful.",
+      "Tags": [
+        "Software",
+        "Software",
+        "Writing"
+      ]
+    },
+    {
+      "Name": "Artist Resource Links",
+      "URL": "https://docs.google.com/spreadsheets/d/18aQ_VMkW_p8v45-6XjcDvW5vmX-EONp5xQsD3atZcQU/edit#gid=715443551",
+      "Description": "A list of resources for artists.",
+      "Tags": [
+        "Tools",
+        "Art",
+        "Directory"
+      ]
+    },
+    {
+      "Name": "Backgrounds Archive",
+      "URL": "http://backgroundsarchive.com",
+      "Description": "A website that allows you to search for backgrounds.",
+      "Tags": [
+        "Tools",
+        "Art",
+        "Archive"
+      ]
+    },
+    {
+      "Name": "Beginner's Guide to Digital Zines!",
+      "URL": "https://yamino.itch.io/beginners-guide-to-digital-zines",
+      "Description": "A guide to digital zines.",
+      "Tags": [
+        "Reading",
+        "Art",
+        "Guides"
+      ]
+    },
+    {
+      "Name": "Boil The Frog",
+      "URL": "http://boilthefrog.playlistmachinery.com/",
+      "Description": "Create a (nearly) seamless playlist between (almost) any two artists.",
+      "Tags": [
+        "Tools",
+        "Music"
+      ]
+    },
+    {
+      "Name": "Bre's Zine Resources",
+      "URL": "https://docs.google.com/document/d/11Lc8s3w5HLrs8ekKiIGrbxNjVUV591MRvLdIOp_5fiA/edit?usp=sharing",
+      "Description": "A list of resources for zine creators.",
+      "Tags": [
+        "Tools",
+        "Art",
+        "Reading",
+        "Directory"
+      ]
+    },
+    {
+      "Name": "Catppuccin",
+      "URL": "https://catppuccin.com",
+      "Description": "Catppuccin is a pastel, soothing color scheme (four themes).",
+      "Tags": [
+        "Plugins"
+      ]
+    },
+    {
+      "Name": "Circlejourney’s Toyhouse Live Code Editor",
+      "URL": "https://th.circlejourney.net/",
+      "Description": "A live code editor for web development.",
+      "Tags": [
+        "Tools",
+        "Development"
+      ]
+    },
+    {
+      "Name": "Cobalt",
+      "URL": "https://cobalt.tools/",
+      "Description": "Download any archive from anywhere.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Make Corpos Angry"
+      ]
+    },
+    {
+      "Name": "ConvertICO",
+      "URL": "https://convertico.com/",
+      "Description": "Convert your images to ICO format.",
+      "Tags": [
+        "Tools"
+      ]
+    },
+    {
+      "Name": "DeGoogle-ify Internet",
+      "URL": "https://degooglisons-internet.org/en/",
+      "Description": "Non profit proyect by Framasoft dedicated towards safer and trustworthy software solutions.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Make Corpos Angry"
+      ]
+    },
+    {
+      "Name": "Deploy to Neocities with Github",
+      "URL": "https://webcatz.neocities.org/writing/blog/?entry=deploy-neocities-github/",
+      "Description": "A guide to deploy to Neocities with Github.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Development",
+        "Guides"
+      ]
+    },
+    {
+      "Name": "Dracula",
+      "URL": "https://draculatheme.com",
+      "Description": "Dracula is a dark color scheme for your terminal, code editor, and more.",
+      "Tags": [
+        "Plugins"
+      ]
+    },
+    {
+      "Name": "Eliasz’ OTP Prompt Generator",
+      "URL": "https://atsuzaki-playground.neocities.org/otp-prompt-generator/",
+      "Description": "A tool to generate OTP prompts.",
+      "Tags": [
+        "Tools",
+        "Fun",
+        "Writing"
+      ]
+    },
+    {
+      "Name": "Ellipsus",
+      "URL": "https://ellipsus.com/",
+      "Description": "Google Docs alternative",
+      "Tags": [
+        "Tools",
+        "Writing"
+      ]
+    },
+    {
+      "Name": "Escargot",
+      "URL": "https://escargot.chat/",
+      "Description": "Escargot is a new service that makes old versions of MSN Messenger and Windows Live Messenger work again. ",
+      "Tags": [
+        "Software",
+        "Tools",
+        "Internet"
+      ]
+    },
+    {
+      "Name": "F-droid",
+      "URL": "https://f-droid.org/",
+      "Description": "F-Droid is a free and open source app store for Android. ",
+      "Tags": [
+        "Software"
+      ]
+    },
+    {
+      "Name": "FileGarden",
+      "URL": "https://filegarden.com/",
+      "Description": "A file hosting service.",
+      "Tags": [
+        "Tools",
+        "Internet"
+      ]
+    },
+    {
+      "Name": "Flashpoint Archive",
+      "URL": "https://archive.flashpoint.com/",
+      "Description": "Flashpoint Archive is a collection of Flash games. ",
+      "Tags": [
+        "Software",
+        "Video Games",
+        "Archive"
+      ]
+    },
+    {
+      "Name": "Forebears",
+      "URL": "https://forebears.io/",
+      "Description": "Search millions of names & places",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Reading"
+      ]
+    },
+    {
+      "Name": "Free Online Image Editor",
+      "URL": "https://www.online-image-editor.com/",
+      "Description": "A free online image editor.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Art"
+      ]
+    },
+    {
+      "Name": "freeformatter.com",
+      "URL": "https://www.freeformatter.com/",
+      "Description": "Tools for developers!",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Development"
+      ]
+    },
+    {
+      "Name": "FREEMEDIAHECKYEAH",
+      "URL": "https://fmhy.pages.dev/",
+      "Description": ":3",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Make Corpos Angry",
+        "Directory"
+      ]
+    },
+    {
+      "Name": "FreeTube",
+      "URL": "https://freetubeapp.io/",
+      "Description": "YouTube Client, with AdBlock and SponsorBlock.",
+      "Tags": [
+        "Software",
+        "Internet",
+        "Make Corpos Angry"
+      ]
+    },
+    {
+      "Name": "GeekUninstaler",
+      "URL": "https://geekuninstaller.com/",
+      "Description": "Debloater for Windows. ",
+      "Tags": [
+        "Software",
+        "Make Corpos Angry"
+      ]
+    },
+    {
+      "Name": "Importing your streaming history to Last.FM",
+      "URL": "https://docs.google.com/document/d/1IhFMol3wZs24uKnh2rbxHpLaxhETcfB8KqzYIkEW_iM/edit?tab=t.0/",
+      "Description": "Guide to add your Spotify history to Last.FM",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Music",
+        "Guides"
+      ]
+    },
+    {
+      "Name": "irasutoya",
+      "URL": "https://www.irasutoya.com/",
+      "Description": "Various free ilustrations",
+      "Tags": [
+        "Art",
+        "Archive"
+      ]
+    },
+    {
+      "Name": "Jpegify.me",
+      "URL": "https://jpegify.me/",
+      "Description": "Convert your images to JPEG format.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Art"
+      ]
+    },
+    {
+      "Name": "khinsider",
+      "URL": "https://downloads.khinsider.com/",
+      "Description": "A website to download game music.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Music",
+        "Video Games",
+        "Archive"
+      ]
+    },
+    {
+      "Name": "Krita",
+      "URL": "https://krita.org/",
+      "Description": "Krita is a free and open source painting program. ",
+      "Tags": [
+        "Software",
+        "Art",
+        "Animation"
+      ]
+    },
+    {
+      "Name": "LibreOffice",
+      "URL": "https://www.libreoffice.org/",
+      "Description": "LibreOffice is a free and open source office suite. ",
+      "Tags": [
+        "Software",
+        "Tools"
+      ]
+    },
+    {
+      "Name": "List of really, really, really stupid article ideas that you really, really, really should not create",
+      "URL": "https://en.wikipedia.org/wiki/Wikipedia:List_of_really,_really,_really_stupid_article_ideas_that_you_really,_really,_really_should_not_create ",
+      "Description": "Posibly the funniest Wikipedia page",
+      "Tags": [
+        "Reading",
+        "Fun"
+      ]
+    },
+    {
+      "Name": "Los 600 de Latinoamérica",
+      "URL": "https://www.600discoslatam.com/",
+      "Description": "The best 600 music albums from LatinoAmerica",
+      "Tags": [
+        "Music",
+        "Reading"
+      ]
+    },
+    {
+      "Name": "Mariocube",
+      "URL": "https://mariocube.com/",
+      "Description": "Archival of Nintendo goodies from the 2000s",
+      "Tags": [
+        "Video Games",
+        "Internet",
+        "Archive"
+      ]
+    },
+    {
+      "Name": "Name Generator",
+      "URL": "https://www.name-generator.org.uk/",
+      "Description": "Generate random names.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Fun",
+        "Writing"
+      ]
+    },
+    {
+      "Name": "Name that Color",
+      "URL": "https://chir.ag/projects/name-that-color/",
+      "Description": "Select a color and it will find the closest name to it.",
+      "Tags": [
+        "Tools",
+        "Art",
+        "Fun",
+        "Writing"
+      ]
+    },
+    {
+      "Name": "Newgrounds Wiki: Creator Resources",
+      "URL": "https://newgrounds.com/wiki/creator-resources",
+      "Description": "Resources for Newgrounds creators.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Development",
+        "Video Games",
+        "Art",
+        "Music",
+        "Reading"
+      ]
+    },
+    {
+      "Name": "OpenToonz",
+      "URL": "https://www.opentoonz.org/",
+      "Description": "OpenToonz is a free and open source animation program. ",
+      "Tags": [
+        "Software",
+        "Animation"
+      ]
+    },
+    {
+      "Name": "OTP Prompt Generator",
+      "URL": "https://otppromps.neocities.org/",
+      "Description": "Generate OTP prompts.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Fun",
+        "Writing"
+      ]
+    },
+    {
+      "Name": "Picmix",
+      "URL": "https://en.picmix.com/",
+      "Description": "Blingee alternative ",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Art"
+      ]
+    },
+    {
+      "Name": "Picryl",
+      "URL": "https://picryl.com/",
+      "Description": "A website to search for images.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Art"
+      ]
+    },
+    {
+      "Name": "POSEMANIACS",
+      "URL": "https://www.posemaniacs.com",
+      "Description": "Posemaniacs.com is a royalty free pose reference for all artists.",
+      "Tags": [
+        "Tools",
+        "Art"
+      ]
+    },
+    {
+      "Name": "Proyect Gutenberg",
+      "URL": "https://www.gutenberg.org/",
+      "Description": "A website to search for books.",
+      "Tags": [
+        "Reading",
+        "Archive"
+      ]
+    },
+    {
+      "Name": "Reference Angle",
+      "URL": "http://referenceangle.com",
+      "Description": "Searches pictures of faces based off the position of a 3d model.",
+      "Tags": [
+        "Tools",
+        "Art"
+      ]
+    },
+    {
+      "Name": "RefSeek",
+      "URL": "https://www.refseek.com/",
+      "Description": "RefSeek is a web search engine for students and researchers that aims to make academic information easily accessible to everyone. ",
+      "Tags": [
+        "Tools",
+        "Reading"
+      ]
+    },
+    {
+      "Name": "Resources List for the Personal Web",
+      "URL": "https://discourse.32bit.cafe/t/resources-list-for-the-personal-web/49",
+      "Description": "Resources for the personal web.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Development"
+      ]
+    },
+    {
+      "Name": "Ruffle",
+      "URL": "https://ruffle.rs/",
+      "Description": "Flash player emulator.",
+      "Tags": [
+        "Software",
+        "Tools"
+      ]
+    },
+    {
+      "Name": "Shinigami Eyes",
+      "URL": "https://shinigami-eyes.github.io/",
+      "Description": "A browser addon that highlights transphobic and trans-friendly social network pages and users with different colors. ",
+      "Tags": [
+        "Tools"
+      ]
+    },
+    {
+      "Name": "Skelux Flash",
+      "URL": "http://skelux.net/flash.php",
+      "Description": "Flash games archive.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Video Games"
+      ]
+    },
+    {
+      "Name": "Springhole",
+      "URL": "https://www.springhole.net/index.html",
+      "Description": "A place for writers, roleplayers, artists, and other creative people to find help, inspiration, or just some fun! ",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Writing",
+        "Art"
+      ]
+    },
+    {
+      "Name": "Starmen.net",
+      "URL": "https://starmen.net/index.php",
+      "Description": "Starmen.net is a large fansite and community based on the somewhat overlooked Mother/EarthBound series of video games.",
+      "Tags": [
+        "Internet",
+        "Video Games"
+      ]
+    },
+    {
+      "Name": "Templatemaker.nl",
+      "URL": "https://templatemaker.nl/",
+      "Description": "Templatemaker.nl is a website to create templates.",
+      "Tags": [
+        "Tools"
+      ]
+    },
+    {
+      "Name": "The Odin Project",
+      "URL": "https://www.theodinproject.com/",
+      "Description": "Online courses for Web Development, no login needed",
+      "Tags": [
+        "Development",
+        "Reading"
+      ]
+    },
+    {
+      "Name": "The Oldschool PC Font Resource",
+      "URL": "https://int10h.org/oldschool-pc-fonts/fontlist",
+      "Description": "The Oldschool PC Font Resource is a website to search for fonts.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Art"
+      ]
+    },
+    {
+      "Name": "tinytools.directory",
+      "URL": "https://tinytools.directory/",
+      "Description": "tinytools.directory is a website to search for tools.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Directory"
+      ]
+    },
+    {
+      "Name": "Tip of my Tongue",
+      "URL": "https://chir.ag/projects/tip-of-my-tongue/",
+      "Description": "Find that word that you've been thinking about all day but just can't seem to remember.",
+      "Tags": [
+        "Tools",
+        "Writing"
+      ]
+    },
+    {
+      "Name": "Tomodachi Life Save Editor",
+      "URL": "https://github.com/Brionjv/Tomodachi-Life-Save-Editor/",
+      "Description": "A save editor for Tomodachi Life. ",
+      "Tags": [
+        "Tools",
+        "Video Games"
+      ]
+    },
+    {
+      "Name": "Transparent Textures",
+      "URL": "https://www.transparenttextures.com/",
+      "Description": "Transparent Textures for any of your Texture Needs!",
+      "Tags": [
+        "Tools",
+        "Art"
+      ]
+    },
+    {
+      "Name": "uBlock Origin",
+      "URL": "https://ublockorigin.com/",
+      "Description": "A free and open source ad blocker. ",
+      "Tags": [
+        "Tools",
+        "Internet"
+      ]
+    },
+    {
+      "Name": "Universal Android Debloater",
+      "URL": "https://github.com/0x192/universal-android-debloater",
+      "Description": "Deletes software one may not be able to get rid otherwise (android)",
+      "Tags": [
+        "Tools"
+      ]
+    },
+    {
+      "Name": "vern",
+      "URL": "https://vern.cc",
+      "Description": "~vern is a non-commercial tilde focused on free software and services!",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Make Corpos Angry"
+      ]
+    },
+    {
+      "Name": "Vimm´s Lair ",
+      "URL": "https://vimm.net/",
+      "Description": "Videogame archival website.",
+      "Tags": [
+        "Video Games",
+        "Archive"
+      ]
+    },
+    {
+      "Name": "W3Schools",
+      "URL": "https://www.w3schools.com/",
+      "Description": "W3Schools is a website to learn HTML, CSS, JavaScript, and more.",
+      "Tags": [
+        "Tools",
+        "Internet",
+        "Development"
+      ]
+    },
+    {
+      "Name": "Wolframalpha",
+      "URL": "https://www.wolframalpha.com/",
+      "Description": "Compute expert-level answers using Wolfram’s breakthrough algorithms, knowledgebase and AI technology.",
+      "Tags": [
+        "Tools",
+        "Internet"
+      ]
+    },
+    {
+      "Name": "XYZ.CRD.CO",
+      "URL": "https://xyz.crd.co/",
+      "Description": "Graphics Collection",
+      "Tags": [
+        "Art",
+        "Internet",
+        "Archive"
+      ]
+    },
+    {
+      "Name": "ZineWorld",
+      "URL": "http://zineworld.org/index.html",
+      "Description": "Archive of the eponymous zine ",
+      "Tags": [
+        "Reading",
+        "Archive"
+      ]
+    },{
+      "Name":"fluffmoth'd id buttons",
+      "URL":"https://idbuttons.neocities.org/",
+      "Description":"tiny identity buttons",
+      "Tags":[
+        "Archive",
+        "Internet"
+      ]
+    }
+  ]
+}

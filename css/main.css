@@ -1,0 +1,25 @@
+/* Main CSS - Import all modules */
+
+/* Variables */
+@import 'partials/_variables.css';
+
+/* Fonts */
+@import 'partials/_fonts.css';
+
+/* Base styles */
+@import 'partials/_base.css';
+
+/* Layout */
+@import 'partials/_layout.css';
+
+/* Components */
+@import 'partials/_components.css';
+
+/* Page-specific styles */
+@import 'partials/_pages.css';
+
+/* Utilities */
+@import 'partials/_utilities.css';
+
+/* Legacy styles - keeping existing styles for compatibility */
+@import 'style.css';
